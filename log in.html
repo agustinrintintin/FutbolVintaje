@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutbolVintage</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/log in.css">
+    <link rel="icon" href="/imagenes/jugador-de-futbol.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <header class="encabezado-articulo-carrito">
+        <div class="logo-articulo-carrito">
+            <img src="/imagenes/jugador-de-futbol.png" alt="0" class="imgenca">
+            <a href="/index.html" class="titulo">
+                <h2>FutbolVintage</h2>
+            </a>
+        </div>
+    </header>
+    <nav>
+        <div class="categoria">
+            <div class="op">
+                <a href="" class="opciones" target="_self">Inicio Sesion<i class="bi bi-person-fill"></i></a>
+                <a href="/carrito.html" class="opciones" target="_self">
+                    Carrito <i class="bi bi-cart4"></i><span id="numerito" class="numerito"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="todo">
+        <div class="contenedor-logeo">
+            <h2 class="titulo-login">Formulario de Registro para comprar</h2>
+            <form id="formulario-envio">
+                <div class="formulario-grupo">
+                    <div class="nombre-apellido">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su Nombre">
+                    </div>
+
+                    <div class="nombre-apellido">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required placeholder="Ingrese su Apellido">
+                    </div>
+                </div>
+
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required placeholder="Ingrese su Direccion">
+
+                <div class="postal-casa-dire">
+                    <div>
+                        <label for="codigo-postal">Código Postal:</label>
+                        <input type="text" id="codigo-postal" name="codigo-postal" required
+                            placeholder="Ingrese su Codigo Postal">
+                    </div>
+
+                    <div>
+                        <label for="numero-casa">Número de Casa:</label>
+                        <input type="text" id="numero-casa" name="numero-casa" required
+                            placeholder="Ingrese su N° de Casa">
+                    </div>
+
+                    <div class="provincias">
+                        <label for="provincia">Provincia:</label>
+                        <select id="provincia" name="provincia" required>
+                            <option value="" disabled selected>Seleccione una provincia</option>
+                            <option value="buenos-aires">Buenos Aires</option>
+                            <option value="catamarca">Catamarca</option>
+                            <option value="chaco">Chaco</option>
+                            <option value="chubut">Chubut</option>
+                            <option value="cordoba">Córdoba</option>
+                            <option value="corrientes">Corrientes</option>
+                            <option value="entre-rios">Entre Ríos</option>
+                            <option value="formosa">Formosa</option>
+                            <option value="jujuy">Jujuy</option>
+                            <option value="la-pampa">La Pampa</option>
+                            <option value="la-rioja">La Rioja</option>
+                            <option value="mendoza">Mendoza</option>
+                            <option value="misiones">Misiones</option>
+                            <option value="neuquen">Neuquén</option>
+                            <option value="rio-negro">Río Negro</option>
+                            <option value="salta">Salta</option>
+                            <option value="san-juan">San Juan</option>
+                            <option value="san-luis">San Luis</option>
+                            <option value="santa-cruz">Santa Cruz</option>
+                            <option value="santa-fe">Santa Fe</option>
+                            <option value="santiago-del-estero">Santiago del Estero</option>
+                            <option value="tierra-del-fuego">Tierra del Fuego</option>
+                            <option value="tucuman">Tucumán</option>
+                        </select>
+                    </div>
+                </div>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono" required placeholder="Ingrese su Teléfono">
+            </form>
+            <button class="boton-registrar">Registrar</button>
+        </div>
+    </section>
+    <script src="/main.js"></script>
+    <script src="/carrito.js"></script>
+
+    <footer>
+        <div class="pie-pagina">
+            <div class="logo-pie">
+                <img src="/imagenes/jugador-de-futbol.png" alt="0" class="imgenca">
+                <h2 class="titulo-pie">FutbolVintage</h2>
+            </div>
+            <h5 class="texto-pie">© 2023 Fútbol Vintage. Reservados todos los derechos</h5>
+            <div class="redes">
+                <section class="buttons">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook " target="_blank"></a>
+                    <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+                </section>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

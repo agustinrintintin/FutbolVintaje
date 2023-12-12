@@ -1,0 +1,236 @@
+.contenedor-carrito {
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 100px;
+
+}
+
+.carrito-vacio {
+    font-family: poppins;
+    color: rgba(83, 113, 136, 1);
+    margin-left: 100px;
+    background-color: rgba(235, 235, 235, 1);
+    padding-bottom: 230px;
+}
+
+.carrito-comprado{
+    font-family: poppins;
+    color: rgba(83, 113, 136, 1);
+    margin-left: 100px;
+    background-color: rgba(235, 235, 235, 1);
+    padding-bottom: 230px;
+}
+
+.prueba {
+    width: 100%;
+    background-color: rgba(244, 244, 244, 1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .12);
+    border: 2px solid rgba(203, 178, 121, 1);
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 30px;
+
+}
+
+.carrito-productos {
+    background-color: rgba(244, 244, 244, 1);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carrito-contenido {
+    padding: 20px;
+    display: flex;
+}
+
+.cont-carrito-contenido {
+    border-bottom: 2px solid rgba(203, 178, 121, 1);
+    display: flex;
+    width: 100%;
+}
+
+.info-producto {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.img-carrito {
+    border-radius: 30px;
+    border: 2px solid rgba(192, 192, 192, 1);
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.nombre-carrito {
+    color: rgba(0, 63, 98, 1);
+    font-family: poppins;
+}
+
+.talle-carrito {
+    color: black;
+    font-family: poppins;
+}
+
+.precio-y-cantidad {
+    text-align: right;
+}
+
+.precio-carrito {
+    color: black;
+    font-family: poppins;
+}
+
+.cantidad-carrito {
+    color: black;
+    font-family: poppins;
+
+}
+
+.remover-carrito {
+    color: rgba(250, 52, 52, 1);
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid rgba(222, 226, 231, 1);
+    font-family: poppins;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.remover-carrito:hover {
+    background-color: rgb(231, 229, 229);
+    cursor: pointer;
+}
+
+.botones-carrito {
+    margin: 20px;
+    display: flex;
+}
+
+.boton-volver {
+    cursor: pointer;
+    border: none;
+    background-color: rgba(203, 178, 121, 1);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: poppins;
+    margin-right: auto;
+}
+
+.boton-volver:hover {
+    background-color: #e0e0e0;
+}
+
+.bi-arrow-left {
+    font-size: 20px;
+    font-style: bold;
+    color: black;
+}
+
+.boton-borrar {
+    cursor: pointer;
+    border: none;
+    border: 1px solid rgba(203, 178, 121, 1);
+    color: rgba(0, 63, 98, 1);
+    padding: 10px;
+    font-family: poppins;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.boton-borrar:hover {
+    background-color: #e0e0e0;
+}
+
+.contenedor-total-precio {
+    font-family: poppins;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid rgba(203, 178, 121, 1);
+    background-color: rgba(244, 244, 244, 1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .12);
+    margin-right: 100px;
+    height: fit-content;
+    padding: 30px;
+    width: 30%;
+    position: sticky;
+    top: 30px;
+}
+
+.resumen-de-compra {
+    font-family: poppins;
+    border-bottom: 2px solid rgba(203, 178, 121, 1);
+    text-align: center;
+
+}
+
+.productos {
+    padding-top: 13px;
+    font-family: poppins;
+}
+
+.precio-carrito-total {
+    padding-left: 20px;
+    margin-top: auto;
+    display: inline-block;
+    margin-left: auto;
+}
+
+.carrito-precio-y-total {
+    display: flex;
+}
+
+.total-carito {
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.envio-valor {
+    display: flex;
+    padding-top: 3px;
+}
+
+.envio {
+    font-family: poppins;
+}
+
+.valor-envio {
+    color: rgb(54, 231, 10);
+    font-family: poppins;
+    margin-left: auto;
+}
+
+.pagar-carrito {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagar-carrito-boton {
+    cursor: pointer;
+    border: none;
+    background-color: rgba(203, 178, 121, 1);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    font-family: poppins;
+    font-size: large;
+    justify-content: center;
+}
+
+.pagar-carrito-boton:hover {
+    background-color: #e0e0e0;
+}
+
+.disabled {
+    display: none;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(/imagenes/Poppins-Regular.ttf);
+}

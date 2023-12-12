@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: poppins;
+}
+
+input,
+select {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 2px solid rgba(203, 178, 121, 1);
+    border-radius: 4px;
+    font-family: poppins;
+}
+
+.contenedor-logeo {
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    background-color: rgba(235, 235, 235, 1);
+    
+}
+
+.titulo-login{
+    font-family: poppins;
+    text-align: center;
+}
+
+.formulario-grupo {
+    display: flex;
+    gap: 8px;
+}
+
+.nombre-apellido{
+    flex: 1;
+}
+
+.postal-casa-dire{
+    display: flex; gap: 8px;
+}
+
+.provincias{
+    flex: 1;
+}
+
+.boton-registrar {
+    cursor: pointer;
+    border: none;
+    background-color: rgba(203, 178, 121, 1);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    font-family: poppins;
+    font-size: large;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+}
+
+.boton-registrar:hover {
+    background-color: #e0e0e0;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(/imagenes/Poppins-Regular.ttf);
+}

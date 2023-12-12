@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutbolVintage</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" href="/imagenes/jugador-de-futbol.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <div class="encabezado">
+        <div class="logo">
+            <img src="/imagenes/jugador-de-futbol.png" alt="0" class="imgenca">
+            <a href="/index.html" class="titulo">
+                <h2>FutbolVintage</h2>
+            </a>
+        </div>
+        <div class="buscador">
+            <form class="d-flex buscador" role="search" id="formulario-busqueda">
+                <input class="form-control me-2 rectan" id="buscador" type="text" placeholder="Buscar Camiseta"
+                    aria-label="Search">
+                <button class="btn btn-outline-success lupa" type="submit">
+                    <img src="/imagenes/lupa.png" alt="" class="imglup">
+                </button>
+            </form>
+        </div>
+        <div class="dropdown">
+            <button class="cate"> Categorias <i class="bi bi-caret-right"></i> </button>
+            <div class="dropdown-options">
+                <button id="Todos" class="boton-categoria" href="#" target="_self">Todos los Productos</button>
+                <button id="Equipos-Argentinos" class="boton-categoria" href="#" target="_self">Equipos
+                    Argentinos</button>
+                <button id="Equipos-Europeos" class="boton-categoria" href="#" target="_self">Equipos Europeos</button>
+                <button id="Seleccion-Argentina" class="boton-categoria" href="#" target="_self">Selección
+                    Argentina</button>
+            </div>
+        </div>
+    </div>
+    </header>
+    <nav>
+        <div class="categoria">
+            <div class="op">
+                <a href="/log in.html" class="opciones" target="_self">Inicio Sesion<i class="bi bi-person-fill"></i></a>
+                <a href="/carrito.html" class="opciones" target="_self">
+                    Carrito <i class="bi bi-cart4"></i><span id="numerito" class="numerito"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="todo">
+        <div class="eslogan ">
+            <p class="esl">
+                Tu Camiseta <br>retro esta<br>aqui...
+            </p>
+            <img src="/imagenes/mundial.jpg" alt="0" class="maradona">
+        </div>
+        <h2 id="tiulo-principal" class="titulo-relevante">Todos los Productos</h2>
+        <div id="contenedor-productos" class="contenedor-producto">
+            <!--Se Llena con JS-->
+            >
+        </div>
+
+        <script src="/main.js"></script>
+
+    </section>
+</body>
+<footer>
+    <div class="pie-pagina">
+        <div class="logo-pie">
+            <img src="/imagenes/jugador-de-futbol.png" alt="0" class="imgenca">
+            <h2 class="titulo-pie">FutbolVintage</h2>
+        </div>
+        <h5 class="texto-pie">© 2023 Fútbol Vintage. Reservados todos los derechos</h5>
+        <div class="redes">
+            <section class="buttons">
+                <a href="https://www.facebook.com/" class="fa fa-facebook " target="_blank"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+            </section>
+        </div>
+    </div>
+</footer>
+
+</html>
